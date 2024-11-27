@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(6, 31, 27);
+    font-family: arial,sans-serif;
+
+}
+.container{
+box-shadow: 0 0 7px rgb(3, 141, 233);
+   border-radius: 10px;
+    width: 30%;
+    
+    margin:100px auto;
+    background: rgb(21, 85, 116);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    font-size: 25px;
+    margin-bottom:10px;
+    color: white;
+    margin-left: 60px;
+}
+
+form input{
+    padding: 8px;
+    width: 70%;
+    margin-left: 60px;
+    border: none;
+}
+form button{
+    padding: 8px;
+    width: 50%;
+    border: none;
+border-radius: 10px;
+    background: rgb(0, 117, 185);
+    margin-left:90px;
+    font-size: 25px;
+    color: white;
+}
+form select{
+    padding: 8px;
+    margin-top: 10px;
+    width: 70%;
+    border: none;
+    margin-left: 60px;
+}
